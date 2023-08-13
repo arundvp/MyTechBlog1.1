@@ -31,8 +31,6 @@ Just type a technical query on Google, and you're met with thousands of articles
 
 To use MyTechBlog, simply register an account, log in, and you're ready to publish your first post or dive into the vast collection of articles and tutorials shared by our community.
 
----
-
 **Note to Developers:** We appreciate the effort developers put into both building technology and writing about it. MyTechBlog is our tribute to that dedication. Happy coding and happy writing!
 
   ## Table of Contents
@@ -44,7 +42,7 @@ To use MyTechBlog, simply register an account, log in, and you're ready to publi
   - [License](#license)
   - [Questions](#questions)
   ## Installation <a name="installation"></a>
----
+
 ### **Prerequisites:**
 
 Before you begin, ensure you have the following installed:
@@ -122,7 +120,7 @@ Before you begin, ensure you have the following installed:
 That's it! You should now have MyTechBlog running locally on your machine. Remember, when deploying to a platform like Heroku, you may need additional setup, such as provision add-ons like JawsDB for MySQL database support.
  
 ## Usage <a name="usage"></a>
- ---
+
 ### **Navigating the Site:**
 
 1. **Homepage**
