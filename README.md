@@ -2,9 +2,6 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  ## Description
-## **MyTechBlog: Blogging Platform**
-
-### **Description:**
 
 In the realm of technology and development, the ability to articulate and share technical knowledge is just as crucial as the skill to create the tech itself. Developers often spend countless hours building applications and rectifying errors in their code. But they also allocate a significant amount of time to learn from articles, tutorials, and think pieces, often written by their peers. Recognizing the vital role that content plays in the developer ecosystem, we introduce **MyTechBlog** - a CMS-style blog platform dedicated to developers.
 
