@@ -47,13 +47,7 @@ To use MyTechBlog, simply register an account, log in, and you're ready to publi
   - [License](#license)
   - [Questions](#questions)
   ## Installation <a name="installation"></a>
-
-Certainly! I'll provide an Installation guide based on the details provided so far. If your application has other specific needs, be sure to incorporate them:
-
 ---
-
-## **Installation Guide: MyTechBlog**
-
 ### **Prerequisites:**
 
 Before you begin, ensure you have the following installed:
