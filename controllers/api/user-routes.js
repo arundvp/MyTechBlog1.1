@@ -26,6 +26,7 @@ router.post("/signup", async (req, res) => {
     req.session.save(() => {
       req.session.user_id = userData.id;
       req.session.logged_in = true;
+      req.session.username = newUser.username; // Save the username in the session
 
       res.status(200).json(userData);
     });
@@ -58,6 +59,7 @@ router.post("/login", async (req, res) => {
     req.session.save(() => {
       req.session.user_id = userData.id;
       req.session.logged_in = true;
+      req.session.username = userData.username; // Save the username in the session
 
       res
         .status(200)
@@ -77,5 +79,8 @@ router.post("/logout", (req, res) => {
     res.status(404).end();
   }
 });
+
+
+
 // Export the router
 module.exports = router;

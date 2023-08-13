@@ -6,7 +6,7 @@ const withAuth = (req, res, next) => {
     } else {
       // If user is logged in, continue to next middleware or route
       next();
-    }
+     }
   };
   
   // Exporting withAuth middleware function

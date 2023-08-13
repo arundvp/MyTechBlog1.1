@@ -16,6 +16,7 @@ router.get("/", async (req, res) => {
     res.render("homepage", {
       posts,
       logged_in: req.session.logged_in,
+      username: req.session.username // Pass username from session
     });
   } catch (err) {
         // If there is an error, return 500 status code and error message
@@ -41,6 +42,7 @@ router.get("/post/:id", withAuth, async (req, res) => {
     res.render("post", {
       ...post,
       logged_in: req.session.logged_in,
+      username: req.session.username // Pass username from session
     });
   } catch (err) {
         // If there is an error, return 500 status code and error message
@@ -61,6 +63,7 @@ router.get("/dashboard", withAuth, async (req, res) => {
     res.render("dashboard", {
       posts,
       logged_in: req.session.logged_in,
+      username: req.session.username // Pass username from session
     });
   } catch (err) {
     res.status(500).json(err);
@@ -110,6 +113,7 @@ router.get("/editpost/:id", async (req, res) => {
     res.render("editpost", {
       ...post,
       logged_in: req.session.logged_in,
+      username: req.session.username // Pass username from session
     });
   } catch (err) {
     res.status(500).json(err);

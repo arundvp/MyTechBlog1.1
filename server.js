@@ -1,5 +1,6 @@
 // Importing required modules and dependencies
 const express = require("express");
+const router = express.Router();
 const session = require("express-session");
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
 const routes = require("./controllers");
