@@ -119,8 +119,6 @@ Before you begin, ensure you have the following installed:
 
    Navigate to `http://localhost:3000/` on your browser to access MyTechBlog.
 
----
-
 That's it! You should now have MyTechBlog running locally on your machine. Remember, when deploying to a platform like Heroku, you may need additional setup, such as provision add-ons like JawsDB for MySQL database support.
  
 ## Usage <a name="usage"></a>
@@ -161,7 +159,6 @@ That's it! You should now have MyTechBlog running locally on your machine. Remem
     - Click the `Logout` button, found at the top right or in a user menu, to log out of your account.
  
 ## Packages Used <a name="package-list"></a>
----
 
 ### **NPM Packages**
 
